@@ -19,8 +19,8 @@ N 220 -160 290 -160 {
 lab=VN}
 N 290 -170 290 -160 {
 lab=VN}
-C {/home/jacob/madvlsi/mp1/NAND2.sym} 140 -180 0 0 {name=X1}
-C {/home/jacob/madvlsi/mp1/inverter.sym} 230 -200 0 0 {name=X2}
+C {NAND2.sym} 140 -180 0 0 {name=X1}
+C {inverter.sym} 230 -200 0 0 {name=X2}
 C {devices/ipin.sym} 180 -210 0 0 {name=p1 lab=A}
 C {devices/ipin.sym} 180 -190 0 0 {name=p2 lab=B}
 C {devices/iopin.sym} 220 -250 3 0 {name=p3 lab=VP}

@@ -17,8 +17,8 @@ N 320 -200 350 -200 {
 lab=Vout}
 N 160 -170 160 -110 {
 lab=Vb}
-C {/home/jacob/madvlsi/mp1/NAND2.sym} 140 -180 0 0 {name=X1}
-C {/home/jacob/madvlsi/mp1/inverter.sym} 230 -200 0 0 {name=X2}
+C {NAND2.sym} 140 -180 0 0 {name=X1}
+C {inverter.sym} 230 -200 0 0 {name=X2}
 C {madvlsi/vdd.sym} 220 -230 0 0 {name=l1 lab=VDD}
 C {madvlsi/vdd.sym} 290 -230 0 0 {name=l2 lab=VDD}
 C {madvlsi/gnd.sym} 220 -170 0 0 {name=l3 lab=GND}
