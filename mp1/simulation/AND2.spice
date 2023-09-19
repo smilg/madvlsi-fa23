@@ -1,4 +1,4 @@
-** sch_path: /home/jacob/madvlsi/mp1/AND2.sch
+** sch_path: /home/jacob/documents/madvlsi/madvlsi-fa23/mp1/AND2.sch
 **.subckt AND2 A B VP VN Y
 *.ipin A
 *.ipin B
@@ -9,9 +9,9 @@ X1 A net1 VP VN B NAND2
 X2 net1 Y VP VN inverter
 **.ends
 
-* expanding   symbol:  /home/jacob/madvlsi/mp1/NAND2.sym # of pins=5
-** sym_path: /home/jacob/madvlsi/mp1/NAND2.sym
-** sch_path: /home/jacob/madvlsi/mp1/NAND2.sch
+* expanding   symbol:  NAND2.sym # of pins=5
+** sym_path: /home/jacob/documents/madvlsi/madvlsi-fa23/mp1/NAND2.sym
+** sch_path: /home/jacob/documents/madvlsi/madvlsi-fa23/mp1/NAND2.sch
 .subckt NAND2 A Y VP VN B
 *.iopin VP
 *.iopin VN
@@ -33,9 +33,9 @@ XM4 net1 B VN VN sky130_fd_pr__nfet_01v8 L=0.15 W=1 nf=1 ad='int((nf+1)/2) * W/n
 .ends
 
 
-* expanding   symbol:  /home/jacob/madvlsi/mp1/inverter.sym # of pins=4
-** sym_path: /home/jacob/madvlsi/mp1/inverter.sym
-** sch_path: /home/jacob/madvlsi/mp1/inverter.sch
+* expanding   symbol:  inverter.sym # of pins=4
+** sym_path: /home/jacob/documents/madvlsi/madvlsi-fa23/mp1/inverter.sym
+** sch_path: /home/jacob/documents/madvlsi/madvlsi-fa23/mp1/inverter.sch
 .subckt inverter A Y VP VN
 *.ipin A
 *.iopin VP

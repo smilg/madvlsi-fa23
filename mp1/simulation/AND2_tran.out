@@ -1,0 +1,46 @@
+
+Note: No compatibility mode selected!
+
+
+Circuit: ** sch_path: /home/jacob/documents/madvlsi/madvlsi-fa23/mp1/and2_tran.sch
+
+binary raw file "/home/jacob/documents/madvlsi/madvlsi-fa23/mp1/simulation/AND2_tran.raw"
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Note: include: has no value, DC 0 assumed
+No. of Data Columns : 30  
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+net1                                       1.8
+va                                           0
+vdd                                        1.8
+vb                                           0
+x1.net1                               0.032702
+vout                               2.13105e-07
+sky130_fd_pr__esd_nfet_05v0_nvt.pm3               0
+                                             0
+vdd#branch                        -3.21786e-10
+vb#branch                                    0
+va#branch                                    0
+
+
+No. of Data Rows : 4532
+
+Total analysis time (seconds) = 0.078
+
+Total elapsed time (seconds) = 6.516 
+
+Total DRAM available = 15849.102 MB.
+DRAM currently available = 13893.621 MB.
+Maximum ngspice program size =  350.031 MB.
+Current ngspice program size =  331.816 MB.
+
+Shared ngspice pages =   10.047 MB.
+Text (code) pages =    5.449 MB.
+Stack = 0 bytes.
+Library pages =  330.094 MB.
+
