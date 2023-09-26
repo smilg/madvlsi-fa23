@@ -1,0 +1,34 @@
+* NGSPICE file created from shiftreg.ext - technology: sky130A
+
+.subckt inverter A Y VP VN
+X0 Y A VN VN sky130_fd_pr__nfet_01v8 ad=0.5 pd=3 as=0.5 ps=3 w=1 l=0.15
+X1 Y A VP VP sky130_fd_pr__pfet_01v8 ad=0.5 pd=3 as=0.5 ps=3 w=1 l=0.15
+.ends
+
+.subckt flipflop D Db CLK Q Qb VP VN
+X0 a_212_430# a_260_620# a_260_n1050# VN sky130_fd_pr__nfet_01v8 ad=0.25 pd=1.5 as=0.421 ps=2.93 w=1 l=0.15
+X1 VP a_260_620# a_212_430# VP sky130_fd_pr__pfet_01v8 ad=0.488 pd=3.07 as=0.25 ps=1.5 w=1 l=0.15
+X2 Qb CLK a_212_430# VN sky130_fd_pr__nfet_01v8 ad=0.25 pd=1.5 as=0.25 ps=1.5 w=1 l=0.15
+X3 Qb Q a_520_50# VP sky130_fd_pr__pfet_01v8 ad=0.5 pd=3 as=0.421 ps=2.93 w=1 l=0.15
+X4 a_260_n1050# CLK VN VN sky130_fd_pr__nfet_01v8 ad=0.421 pd=2.93 as=1.92 ps=8.7 w=3.85 l=0.15
+X5 Q CLK a_260_620# VN sky130_fd_pr__nfet_01v8 ad=0.25 pd=1.5 as=0.25 ps=1.5 w=1 l=0.15
+X6 a_520_50# CLK VP VP sky130_fd_pr__pfet_01v8 ad=0.421 pd=2.93 as=0.488 ps=3.07 w=3.85 l=0.15
+X7 Q Qb a_520_50# VP sky130_fd_pr__pfet_01v8 ad=0.5 pd=3 as=0.421 ps=2.93 w=1 l=0.15
+X8 a_260_620# a_212_430# a_260_n1050# VN sky130_fd_pr__nfet_01v8 ad=0.25 pd=1.5 as=0.421 ps=2.93 w=1 l=0.15
+X9 VN Q Qb VN sky130_fd_pr__nfet_01v8 ad=0.5 pd=3 as=0.25 ps=1.5 w=1 l=0.15
+X10 VP a_212_430# a_260_620# VP sky130_fd_pr__pfet_01v8 ad=0.488 pd=3.07 as=0.25 ps=1.5 w=1 l=0.15
+X11 a_260_620# CLK D VP sky130_fd_pr__pfet_01v8 ad=0.25 pd=1.5 as=0.5 ps=3 w=1 l=0.15
+X12 a_212_430# CLK Db VP sky130_fd_pr__pfet_01v8 ad=0.25 pd=1.5 as=0.5 ps=3 w=1 l=0.15
+X13 VN Qb Q VN sky130_fd_pr__nfet_01v8 ad=0.5 pd=3 as=0.25 ps=1.5 w=1 l=0.15
+.ends
+
+
+* Top level circuit shiftreg
+
+Xinverter_0 inverter_0/A inverter_0/Y inverter_0/VP VSUBS inverter
+Xflipflop_0 Q2 flipflop_3/Qb CLK flipflop_0/Q flipflop_0/Qb inverter_0/VP VSUBS flipflop
+Xflipflop_1 inverter_0/A inverter_0/Y CLK Q0 flipflop_2/Db inverter_0/VP VSUBS flipflop
+Xflipflop_2 Q0 flipflop_2/Db CLK Q1 flipflop_3/Db inverter_0/VP VSUBS flipflop
+Xflipflop_3 Q1 flipflop_3/Db CLK Q2 flipflop_3/Qb inverter_0/VP VSUBS flipflop
+.end
+

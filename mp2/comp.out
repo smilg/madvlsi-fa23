@@ -1,0 +1,47 @@
+
+Circuit 1 cell sky130_fd_pr__nfet_01v8 and Circuit 2 cell sky130_fd_pr__nfet_01v8 are black boxes.
+Equate elements:  no current cell.
+Device classes sky130_fd_pr__nfet_01v8 and sky130_fd_pr__nfet_01v8 are equivalent.
+
+Circuit 1 cell sky130_fd_pr__pfet_01v8 and Circuit 2 cell sky130_fd_pr__pfet_01v8 are black boxes.
+Equate elements:  no current cell.
+Device classes sky130_fd_pr__pfet_01v8 and sky130_fd_pr__pfet_01v8 are equivalent.
+
+Subcircuit summary:
+Circuit 1: inverter                        |Circuit 2: inverter                        
+-------------------------------------------|-------------------------------------------
+sky130_fd_pr__nfet_01v8 (1)                |sky130_fd_pr__nfet_01v8 (1)                
+sky130_fd_pr__pfet_01v8 (1)                |sky130_fd_pr__pfet_01v8 (1)                
+Number of devices: 2                       |Number of devices: 2                       
+Number of nets: 4                          |Number of nets: 4                          
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+
+Subcircuit pins:
+Circuit 1: inverter                        |Circuit 2: inverter                        
+-------------------------------------------|-------------------------------------------
+Y                                          |Y                                          
+A                                          |A                                          
+VN                                         |VN                                         
+VP                                         |VP                                         
+---------------------------------------------------------------------------------------
+Cell pin lists are equivalent.
+Device classes inverter and inverter are equivalent.
+Flattening unmatched subcell flipflop_layout in circuit simulation/shiftreg.spice (0)(4 instances)
+Flattening unmatched subcell flipflop in circuit layout/shiftreg.spice (1)(4 instances)
+
+Subcircuit summary:
+Circuit 1: simulation/shiftreg.spice       |Circuit 2: layout/shiftreg.spice           
+-------------------------------------------|-------------------------------------------
+inverter (1)                               |inverter (1)                               
+sky130_fd_pr__pfet_01v8 (28)               |sky130_fd_pr__pfet_01v8 (28)               
+sky130_fd_pr__nfet_01v8 (28)               |sky130_fd_pr__nfet_01v8 (28)               
+Number of devices: 57                      |Number of devices: 57                      
+Number of nets: 29                         |Number of nets: 29                         
+---------------------------------------------------------------------------------------
+Netlists match uniquely.
+Cells have no pins;  pin matching not needed.
+Device classes simulation/shiftreg.spice and layout/shiftreg.spice are equivalent.
+
+Final result: Circuits match uniquely.
+.

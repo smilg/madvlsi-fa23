@@ -1,0 +1,46 @@
+magic
+tech sky130A
+timestamp 1695745997
+<< nwell >>
+rect -145 955 0 1175
+<< locali >>
+rect 295 1070 315 1175
+rect 625 1075 645 1175
+rect 955 1075 975 1175
+rect -20 830 0 1005
+rect -15 770 0 790
+<< metal1 >>
+rect -145 955 0 1160
+rect -145 70 0 330
+rect -145 0 5 40
+use flipflop  flipflop_0 ~/documents/madvlsi/madvlsi-fa23/mp2/layout
+timestamp 1695745633
+transform 1 0 945 0 1 670
+box 45 -670 385 505
+use flipflop  flipflop_1
+timestamp 1695745633
+transform 1 0 -45 0 1 670
+box 45 -670 385 505
+use flipflop  flipflop_2
+timestamp 1695745633
+transform 1 0 285 0 1 670
+box 45 -670 385 505
+use flipflop  flipflop_3
+timestamp 1695745633
+transform 1 0 615 0 1 670
+box 45 -670 385 505
+use inverter  inverter_0
+timestamp 1695745997
+transform 1 0 -75 0 1 430
+box -70 -130 85 525
+<< labels >>
+rlabel space -145 605 -145 605 7 D
+rlabel space -145 480 -145 480 7 GND
+rlabel metal1 -145 20 -145 20 7 CLK
+rlabel space -145 745 -145 745 7 Vdd
+rlabel locali 305 1175 305 1175 1 Q0
+rlabel locali 635 1175 635 1175 1 Q1
+rlabel locali 965 1175 965 1175 1 Q2
+rlabel space 1330 995 1330 995 3 Q3
+rlabel space 1330 780 1330 780 3 Qb3
+<< end >>

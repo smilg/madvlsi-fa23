@@ -1,0 +1,135 @@
+magic
+tech sky130A
+timestamp 1695745997
+<< nwell >>
+rect -70 245 85 525
+<< nmos >>
+rect 0 0 15 100
+<< pmos >>
+rect 0 265 15 365
+<< ndiff >>
+rect -50 85 0 100
+rect -50 15 -35 85
+rect -15 15 0 85
+rect -50 0 0 15
+rect 15 85 65 100
+rect 15 15 30 85
+rect 50 15 65 85
+rect 15 0 65 15
+<< pdiff >>
+rect -50 350 0 365
+rect -50 280 -35 350
+rect -15 280 0 350
+rect -50 265 0 280
+rect 15 350 65 365
+rect 15 280 30 350
+rect 50 280 65 350
+rect 15 265 65 280
+<< ndiffc >>
+rect -35 15 -15 85
+rect 30 15 50 85
+<< pdiffc >>
+rect -35 280 -15 350
+rect 30 280 50 350
+<< psubdiff >>
+rect -50 -45 0 -30
+rect -50 -115 -35 -45
+rect -15 -115 0 -45
+rect -50 -130 0 -115
+<< nsubdiff >>
+rect -50 490 0 505
+rect -50 420 -35 490
+rect -15 420 0 490
+rect -50 405 0 420
+<< psubdiffcont >>
+rect -35 -115 -15 -45
+<< nsubdiffcont >>
+rect -35 420 -15 490
+<< poly >>
+rect 15 410 55 420
+rect 15 395 25 410
+rect 0 390 25 395
+rect 45 390 55 410
+rect 0 380 55 390
+rect 0 365 15 380
+rect 0 195 15 265
+rect 0 185 40 195
+rect 0 165 10 185
+rect 30 165 40 185
+rect 0 155 40 165
+rect 0 100 15 155
+rect 0 -15 15 0
+<< polycont >>
+rect 25 390 45 410
+rect 10 165 30 185
+<< locali >>
+rect -45 490 -5 500
+rect -45 420 -35 490
+rect -15 420 -5 490
+rect -45 410 -5 420
+rect 15 410 55 420
+rect -45 360 -25 410
+rect 15 390 25 410
+rect 45 390 55 410
+rect 15 380 55 390
+rect -45 350 -5 360
+rect -45 280 -35 350
+rect -15 280 -5 350
+rect -45 270 -5 280
+rect 20 350 60 360
+rect 20 280 30 350
+rect 50 290 60 350
+rect 50 280 80 290
+rect 20 270 80 280
+rect 0 185 40 195
+rect 0 165 10 185
+rect 30 165 40 185
+rect 0 155 40 165
+rect 60 95 80 270
+rect -45 85 -5 95
+rect -45 15 -35 85
+rect -15 15 -5 85
+rect -45 -45 -5 15
+rect 20 85 80 95
+rect 20 15 30 85
+rect 50 75 80 85
+rect 50 15 60 75
+rect 20 5 60 15
+rect -45 -115 -35 -45
+rect -15 -115 -5 -45
+rect -45 -125 -5 -115
+<< viali >>
+rect -35 420 -15 490
+rect -35 280 -15 350
+rect 10 165 30 185
+rect -35 15 -15 85
+rect -35 -115 -15 -45
+<< metal1 >>
+rect -70 490 85 525
+rect -70 420 -35 490
+rect -15 420 85 490
+rect -70 350 85 420
+rect -70 280 -35 350
+rect -15 280 85 350
+rect -70 265 85 280
+rect -70 185 40 195
+rect -70 165 10 185
+rect 30 165 40 185
+rect -70 155 40 165
+rect -70 85 85 100
+rect -70 15 -35 85
+rect -15 15 85 85
+rect -70 -45 85 15
+rect -70 -115 -35 -45
+rect -15 -115 85 -45
+rect -70 -130 85 -115
+<< labels >>
+rlabel metal1 -70 -80 -70 -80 7 VN
+port 4 w
+rlabel metal1 -70 175 -70 175 7 A
+port 1 w
+rlabel metal1 -70 315 -70 315 7 VP
+port 3 w
+rlabel locali 80 175 80 175 3 Y
+port 2 e
+<< end >>

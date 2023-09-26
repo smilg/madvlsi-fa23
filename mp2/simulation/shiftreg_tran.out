@@ -1,0 +1,71 @@
+
+Note: No compatibility mode selected!
+
+
+Circuit: ** sch_path: /home/jacob/madvlsi-fa23/mp2/shiftreg_tran.sch
+
+Warning : IC on non-existent node - qb, ignored
+   Please check line .ic v(q[0])=0 v(q[1])=0 v(q[2])=0 v(q[3])=0 v(qb)=0
+
+binary raw file "/home/jacob/madvlsi-fa23/mp2/simulation/shiftreg_tran.raw"
+Doing analysis at TEMP = 27.000000 and TNOM = 27.000000
+
+Note: include: has no value, DC 0 assumed
+No. of Data Columns : 208  
+
+Initial Transient Solution
+--------------------------
+
+Node                                   Voltage
+----                                   -------
+db                                         1.8
+d                                            0
+vdd                                        1.8
+clk                                          0
+x1.net2                                      0
+x1.net3                                    1.8
+q[0]                                         0
+qb[0]                                      1.8
+x1.net1                            1.57239e-10
+x1.net4                                    1.8
+x2.net2                                      0
+x2.net3                                    1.8
+q[1]                                         0
+qb[1]                                      1.8
+x2.net1                            1.57239e-10
+x2.net4                                    1.8
+x3.net2                                      0
+x3.net3                                    1.8
+q[2]                                         0
+qb[2]                                      1.8
+x3.net1                            1.57239e-10
+x3.net4                                    1.8
+x4.net2                                      0
+x4.net3                                    1.8
+q[3]                                         0
+qb[3]                                      1.8
+x4.net1                            1.57239e-10
+x4.net4                                    1.8
+sky130_fd_pr__esd_nfet_05v0_nvt.pm3               0
+                                             0
+vd#branch                          1.80088e-12
+vclk#branch                                  0
+vdd#branch                        -2.60618e-09
+
+
+No. of Data Rows : 10140
+
+Total analysis time (seconds) = 1.347
+
+Total elapsed time (seconds) = 7.881 
+
+Total DRAM available = 15849.102 MB.
+DRAM currently available = 14781.117 MB.
+Maximum ngspice program size =  350.125 MB.
+Current ngspice program size =  331.957 MB.
+
+Shared ngspice pages =   10.090 MB.
+Text (code) pages =    5.449 MB.
+Stack = 0 bytes.
+Library pages =  330.188 MB.
+

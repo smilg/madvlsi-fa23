@@ -1,0 +1,20 @@
+* NGSPICE file created from flipflop.ext - technology: sky130A
+
+*.subckt flipflop D Db CLK Q Qb Vdd GND
+X0 a_212_430# a_260_620# a_260_n1050# GND sky130_fd_pr__nfet_01v8 ad=0.25 pd=1.5 as=0.421 ps=2.93 w=1 l=0.15
+X1 Vdd a_260_620# a_212_430# Vdd sky130_fd_pr__pfet_01v8 ad=0.488 pd=3.07 as=0.25 ps=1.5 w=1 l=0.15
+X2 Qb CLK a_212_430# GND sky130_fd_pr__nfet_01v8 ad=0.25 pd=1.5 as=0.25 ps=1.5 w=1 l=0.15
+X3 Qb Q a_520_50# Vdd sky130_fd_pr__pfet_01v8 ad=0.5 pd=3 as=0.421 ps=2.93 w=1 l=0.15
+X4 a_260_n1050# CLK GND GND sky130_fd_pr__nfet_01v8 ad=0.421 pd=2.93 as=1.92 ps=8.7 w=3.85 l=0.15
+X5 Q CLK a_260_620# GND sky130_fd_pr__nfet_01v8 ad=0.25 pd=1.5 as=0.25 ps=1.5 w=1 l=0.15
+X6 a_520_50# CLK Vdd Vdd sky130_fd_pr__pfet_01v8 ad=0.421 pd=2.93 as=0.488 ps=3.07 w=3.85 l=0.15
+X7 Q Qb a_520_50# Vdd sky130_fd_pr__pfet_01v8 ad=0.5 pd=3 as=0.421 ps=2.93 w=1 l=0.15
+X8 a_260_620# a_212_430# a_260_n1050# GND sky130_fd_pr__nfet_01v8 ad=0.25 pd=1.5 as=0.421 ps=2.93 w=1 l=0.15
+X9 GND Q Qb GND sky130_fd_pr__nfet_01v8 ad=0.5 pd=3 as=0.25 ps=1.5 w=1 l=0.15
+X10 Vdd a_212_430# a_260_620# Vdd sky130_fd_pr__pfet_01v8 ad=0.488 pd=3.07 as=0.25 ps=1.5 w=1 l=0.15
+X11 a_260_620# CLK D Vdd sky130_fd_pr__pfet_01v8 ad=0.25 pd=1.5 as=0.5 ps=3 w=1 l=0.15
+X12 a_212_430# CLK Db Vdd sky130_fd_pr__pfet_01v8 ad=0.25 pd=1.5 as=0.5 ps=3 w=1 l=0.15
+X13 GND Qb Q GND sky130_fd_pr__nfet_01v8 ad=0.5 pd=3 as=0.25 ps=1.5 w=1 l=0.15
+*.ends
+.end
+
